@@ -15,11 +15,15 @@ class Pendapatan extends Migration
 				'unsigned'       => TRUE,
 				'auto_increment' => TRUE
 			],
-			'username'       => [
+			'menu'       => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '225',
 			],
-			'password'       => [
+			'nominal'       => [
+				'type'           => 'VARCHAR',
+				'constraint'     => '225',
+			],
+			'jumlah'       => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '225',
 			],

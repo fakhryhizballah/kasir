@@ -15,11 +15,15 @@ class Menu extends Migration
 				'unsigned'       => TRUE,
 				'auto_increment' => TRUE
 			],
-			'username'       => [
+			'menu'       => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '225',
 			],
-			'password'       => [
+			'harga'       => [
+				'type'           => 'VARCHAR',
+				'constraint'     => '225',
+			],
+			'foto'       => [
 				'type'           => 'VARCHAR',
 				'constraint'     => '225',
 			],
